@@ -1,0 +1,13 @@
+pip install pandas matplotlib numpy seaborn streamlit
+pip freeze > requirements.txt
+pip -m venv venv
+venv/Scripts/activate (bash) | venv/Scripts/Activate.ps1 (powershell) | venv/Scripts/activate.bat (cmd)
+píp install -r requirements.txt
+
+
+# para rodar o streamlit
+streamlit run main.py
+
+
+# venv VS python3-venv
+# pip install python3-venv
